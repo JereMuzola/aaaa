@@ -139,8 +139,12 @@ class InstitutionController extends Controller
      * @param  \App\Institution  $institution
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Institution $institution)
+    public function destroy($institution)
     {
-        //
+        if(Institution::all()->find($institution)->delete()){
+            return response()->json([
+                "message"=>"Suppression réussie"
+                ]);
+        }
     }
 }

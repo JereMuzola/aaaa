@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a3c9a1c-937f-40b7-912c-96f393e9e33c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../frontend/.autogit/autogit.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/aa.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../ContossoStage/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../ContossoStage/.idea/php.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../ContossoStage/.idea/vcs.xml" afterDir="false" />
@@ -14,7 +16,10 @@
       <change beforePath="$PROJECT_DIR$/../../Contosso/Backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Contosso/Backend/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EtudiantController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EtudiantController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_25_042819_create_etudiants_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_25_042819_create_etudiants_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/login/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ProjetLaravel1" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjetLaravel1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../projet2" beforeDir="false" afterPath="$PROJECT_DIR$/../../projet2" afterDir="false" />
     </list>
@@ -175,7 +180,8 @@
       <workItem from="1598435665328" duration="11052000" />
       <workItem from="1598500887991" duration="1380000" />
       <workItem from="1598546730333" duration="11300000" />
-      <workItem from="1598751135645" duration="2242000" />
+      <workItem from="1598751135645" duration="4263000" />
+      <workItem from="1598790822761" duration="5161000" />
     </task>
     <task id="LOCAL-00001" summary="Tout dernier commit">
       <created>1598547090526</created>
@@ -219,10 +225,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="445" y="71" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1598417178973" />
-    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1598583718305">
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1598753977907">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598583718305" />
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598753977907" />
     <state x="501" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598595402648">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

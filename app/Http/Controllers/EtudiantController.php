@@ -50,15 +50,21 @@ class EtudiantController extends Controller
                 $etudiant->sexe=$request->sexe;
                 $etudiant->promotion=$request->prom;
                 $etudiant->institution=Institution::all()->find($request->inst)->id;
-                if($etudiant->save()){
+                if(etudiant::all()->where('matricule',$request->matricule)->count()!=0){
                     return response()->json([
-                        "message"=>"Ajout avec success",
-                        "data"=>$etudiant
-                    ]);
-                }else{
-                    return response()->json([
-                       "message"=>"une erreur s'est produite"
-                    ]);
+                        'message'=>'Un etudiant avec ce numéro matricule existe déjà'
+                ]);
+                }else {
+                    if ($etudiant->save()) {
+                        return response()->json([
+                            "message" => "Ajout avec success",
+                            "data" => $etudiant
+                        ]);
+                    } else {
+                        return response()->json([
+                            "message" => "une erreur s'est produite"
+                        ]);
+                    }
                 }
             }else{
                 return response()->json([
@@ -96,9 +102,19 @@ class EtudiantController extends Controller
      * @param  \App\etudiant  $etudiant
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, etudiant $etudiant)
+    public function update(Request $request,$etudiant)
     {
-        //
+        if(etudiant::all()->find($etudiant)
+            ->update(['nom'=>$request->nom],['postnom'=>$request->postnom],
+            ['prenom'=>$request->prenom],['sexe'=>$request->sexe],['date_de_naissance'=>$request->dn],
+            ['lieu_de_naissance'=>$request->ln],['promotion'=>$request->promotion],
+            ['adresse'=>$request->adresse],['institution'=>$request->inst])){
+
+            return response()->json([
+               'message'=>'Donnée mise à jour avec succes'
+            ]);
+
+        }
     }
 
     /**
@@ -107,8 +123,16 @@ class EtudiantController extends Controller
      * @param  \App\etudiant  $etudiant
      * @return \Illuminate\Http\Response
      */
-    public function destroy(etudiant $etudiant)
+    public function destroy($etudiant)
     {
-        //
+        if(etudiant::all()->find($etudiant)->delete()){
+            return response()->json([
+                "message"=>"Suppression réussie"
+            ]);
+        }else{
+            return response()->json([
+                "message"=>"la suppression a échouée"
+            ]);
+        }
     }
 }
