@@ -13,13 +13,17 @@
       <change afterPath="$PROJECT_DIR$/../../StageApp/Api/database/migrations/2020_08_28_033138_create_etudiants_table.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../StageApp/Api/database/migrations/2020_08_28_033250_create_inscriptions_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ComptaApp/Api/laravel" beforeDir="false" afterPath="$PROJECT_DIR$/../../ComptaApp/Api/laravel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ComptaApp/frontend/src/components/Operation/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ComptaApp/frontend/src/components/Operation/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Contosso/Backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Contosso/Backend/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EtudiantController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EtudiantController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_25_042819_create_etudiants_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_25_042819_create_etudiants_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/components/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/login/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/modules/AddList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/modules/AddList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/modules/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/modules/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/shared/Navbar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/shared/Navbar/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ProjetLaravel1" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjetLaravel1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../projet2" beforeDir="false" afterPath="$PROJECT_DIR$/../../projet2" afterDir="false" />
     </list>
@@ -158,7 +162,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ComptaApp/Api/laravel" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -182,6 +186,9 @@
       <workItem from="1598546730333" duration="11300000" />
       <workItem from="1598751135645" duration="4263000" />
       <workItem from="1598790822761" duration="5161000" />
+      <workItem from="1598876692599" duration="665000" />
+      <workItem from="1598880929941" duration="1028000" />
+      <workItem from="1599149126917" duration="735000" />
     </task>
     <task id="LOCAL-00001" summary="Tout dernier commit">
       <created>1598547090526</created>
@@ -217,10 +224,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="55" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1598550534588" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1598587172427">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1599155914078">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598587172427" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599155914078" />
     <state x="445" y="71" key="NewPhpClassDialog" timestamp="1598417178973">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
